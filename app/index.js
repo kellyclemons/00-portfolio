@@ -5,6 +5,9 @@ import VueRouter from 'vue-router';
 
 import App from './routes/application.vue';
 import Index from './routes/index.vue';
+import Portfolio from './routes/portfolio.vue';
+import Blog from './routes/blog.vue';
+import City from './routes/city.vue';
 
 Vue.use(VueRouter);
 
@@ -13,6 +16,24 @@ const routes = [
     path: '/',
     name: 'index',
     component: Index,
+  },
+
+  {
+    path: '/portfolio',
+    name: 'portfolio',
+    component: Portfolio
+  },
+
+  {
+    path: '/blog',
+    name: 'blog',
+    component: Blog,
+  },
+
+  {
+    path: '/city',
+    name: 'city',
+    component: City,
   },
 ];
 

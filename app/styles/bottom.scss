@@ -1,0 +1,49 @@
+// BOTTOM (Footer)
+
+.footer {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background: $c-app-greenblue;
+  color: $c-white;
+  font-size: 0.8rem;
+
+  > * {
+    margin: 0.5rem;
+  }
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+  // transform: translateX(-5rem);
+}
+
+.footer-title {
+  font-size: 1.2rem;
+}
+
+.footer-logo {
+  width: 3rem;
+  margin-right: 0.5rem;
+  filter: invert(100%);
+}
+
+.footer-right {
+  display: flex;
+  align-items: center;
+  font-size: 0.6rem;
+  text-align: center;
+
+  > * + * {
+    border-left: 1px solid $c-lightgrey;
+  }
+}
+
+.footer-item {
+  padding: 0.2rem 1rem 0.2rem 1rem;
+  color: $c-white;
+  font-size: 1.5rem;
+  text-decoration: none;
+}

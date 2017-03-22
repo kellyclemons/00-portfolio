@@ -1,0 +1,82 @@
+// *** TOP SECTION ***
+
+// TOP NAVBAR;
+//
+
+.folio-logo {
+  width: 20rem;
+}
+
+.top {
+  background: url('/images/waves.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.navbar {
+  font-family: 'Reenie Beanie', cursive;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: $c-white;
+  font-size: 2rem;
+  background: $c-app-greenblue;
+
+  > * {
+    margin: 0.5rem;
+  }
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  width: 3rem;
+  height: 3rem;
+  margin: 0.5rem;
+  filter: invert(100%);
+}
+
+.navbar-title {
+  display: inline;
+  margin: 0;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-right-item {
+  color: $c-white;
+  margin: 0.5rem;
+  text-decoration: none;
+}
+
+// *** HERO BANNER ***
+
+.main-heading {
+  align-content: space-around;
+  padding-top: 3rem;
+  padding-bottom: 10rem;
+
+  background-size: cover;
+  text-align: center;
+
+}
+
+.main-heading-big {
+  padding: 0;
+  margin: 0;
+  font-size: 7rem;
+  text-transform: uppercase;
+  color: $c-white;
+
+}
+
+.main-heading-small {
+  margin: 0;
+  color: $c-white;
+  font-size: 2rem;
+}

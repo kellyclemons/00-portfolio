@@ -1,0 +1,44 @@
+// MIDDLE SECTION (PROJECTS)
+
+.middle {
+  // background: $c-app-greenblue-transparent;
+}
+
+.project-grid {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  max-width: 80rem;
+  margin: 0 auto;
+  text-align: center;
+
+  &__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: calc(100% / 3 - 2rem);
+    min-width: 15rem;
+    flex-grow: 1;
+    margin: 1rem;
+    background: $c-white;
+    cursor: pointer;
+  }
+
+  &__image {
+    position: relative;
+    box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.5);
+
+    &:hover {
+      filter: opacity(50%);
+    }
+  }
+
+  &__text {
+    display: flex;
+    position: absolute;
+    flex-wrap: none;
+    margin: 0;
+    color: $c-white;
+    font-size: 2rem;
+  }
+}
