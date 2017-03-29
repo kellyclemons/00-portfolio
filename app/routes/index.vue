@@ -78,10 +78,11 @@
     <p class="footer-title">Kelly Clemons' Portfolo 2017, All Rights Reserved</p>
   </div>
   <div class="footer-right">
-    <a href="#" class="footer-item"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-    <a href="#" class="footer-item"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-    <a href="#" class="footer-item"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-    <a href="#" class="footer-item"><i class="fa fa-github" aria-hidden="true"></i></a>
+    <a href="mailto:kelly.clemons@me.com" class="footer-item"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+    <a href="https://www.linkedin.com/in/kelly-clemons-50a8ba137/" class="footer-item"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+    <a href="https://github.com/kellyclemons" class="footer-item"><i class="fa fa-github" aria-hidden="true"></i></a>
+    <a href="https://www.instagram.com/kellyclemons/" class="footer-item"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+    <a href="https://www.facebook.com/kelly.e.clemons" class="footer-item"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
   </div>
 </nav>
 
