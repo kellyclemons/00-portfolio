@@ -15,17 +15,18 @@
 .top {
   position: relative;
   // filter: blur(5px);
-  background-size: cover;
   padding-top: 88px;
+  // background-size: cover;
 
   &::before {
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    content: "";
-    position: absolute;
     background: url('/images/waves.jpg') no-repeat center center fixed;
+    background-size: cover;
+    content: "";
 
     z-index: -1;
 
@@ -34,17 +35,18 @@
 }
 
 .navbar {
-  top: 0;
-  width: 100%;
-  font-family: 'Reenie Beanie', cursive;
   display: flex;
+  position: fixed;
+  top: 0;
   flex-direction: row;
   justify-content: space-between;
-  color: $c-black;
-  font-size: 2rem;
-  // background: $c-app-greenblue;
-  position: fixed;
+  width: 100%;
+
   transition: all 0.1s ease-in-out;
+  color: $c-black;
+
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 1.5rem;
   z-index: 2;
 
   > * {
@@ -60,8 +62,8 @@
 .navbar-logo {
   width: 3rem;
   height: 3rem;
-  margin: 0.5rem;
-  transition:  0.6s ease-out;
+  // margin: 0.5rem;
+  transition:  0.8s ease-out;
 
   &:hover {
     transform: scale(1.3) rotateZ(720deg);
@@ -71,6 +73,7 @@
 .navbar-title {
   display: inline;
   margin: 0;
+  padding-left: 0.5rem;
 }
 
 .navbar-right {
@@ -80,12 +83,6 @@
   a {
     color: inherit;
     cursor: pointer;
-
-
-    &:hover {
-      transform: rotateZ(360deg);
-      transition:  0.6s ease-out;
-    }
   }
 }
 
@@ -93,10 +90,12 @@
 .navbar-right-item {
   // color: $c-white;
   margin: 0.5rem;
+  transition: 0.6s ease-out;
   text-decoration: none;
 
   &:hover {
     transform: translateY(-8px);
+    // transition: 0.6s ease-out;
   }
 }
 
@@ -113,8 +112,8 @@
 }
 
 .main-heading-big {
-  padding: 0;
   margin: 0;
+  padding: 0;
   font-size: 7rem;
   text-transform: uppercase;
   // color: $c-white;
@@ -128,20 +127,5 @@
 }
 
 .navbar-scrolled {
-    // top: 0;
-    // width: 100%;
-    // font-family: 'Reenie Beanie', cursive;
-    // display: flex;
-    // flex-direction: row;
-    // justify-content: space-between;
-    // color: $c-black;
-    font-size: 2rem;
-    background: $c-white;
-    // position: fixed;
-    // transition: all 0.1s ease-in-out;
-    // z-index: 2;
-
-  //   > * {
-  //     margin: 0.5rem;
-  // }
+  background: $c-app-navbar-scroll;
 }

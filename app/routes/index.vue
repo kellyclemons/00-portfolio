@@ -9,8 +9,8 @@
         </div>
         <div class="navbar-right">
           <a href="#middle" class="navbar-right-item">Portfolio</a>
-          <a href="#footer" class="navbar-right-item">Connect</a>
-          <router-link :to="{ name: 'city' }" class="navbar-right-item">City</router-link>
+          <a href="#connect" class="navbar-right-item">Connect</a>
+          <a href="#resume" class="navbar-right-item">Resume</a>
         </div>
       </nav>
 
@@ -77,32 +77,73 @@
       </div>
     </div>
 
+    <div id="resume" class="resume">
+      <div class="connect-container">
+        <div class="connect-card">
+          <p class="connect-card__headline">Resume</p>
+          <div class="resume-items">
+
+            <div class="experience">
+              <p class="skills__headline">Relevant Experience</p>
+              <div class="experience__items">
+                <p>Studied Front End Development at The Iron Yard in Nashville, Tennessee <span class="dates">2017<span></p>
+                <p>Account Assistant at Lavare Design in Perth, Western Austalia <span class="dates">2015-2016<span></p>
+                <p>Architecture Intern at JCY Architects and Urban Designers in Perth, Western Australia <span class="dates">2013-2014<span></p>
+                <p>Studied Architecture at The University of Western Australia <span class="dates">2010-2014<span></p>
+              </div>
+            </div>
+
+            <div class="skills">
+              <p class="skills__headline">Skills</p>
+              <div class="skills-item">
+                <div class="skills__items">
+                  <p class="skill">HTML + CSS</p>
+                  <p class="skill">Javascript</p>
+                  <p class="skill">SASS</p>
+                  <p class="skill">Vue</p>
+                  <p class="skill">Git + GitHub</p>
+                </div>
+                <div class="skills__items">
+                  <p class="skill">UI/UX Design</p>
+                  <p class="skill">Adobe InDesign</p>
+                  <p class="skill">Adobe Illustrator</p>
+                  <p class="skill">Adobe Photoshop</p>
+                  <p class="skill">Sketch</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
 <!-- CONNECT -->
-    <div class="connect">
+    <div id="connect" class="connect">
       <div class="connect-container">
         <div class="connect-card">
           <p class="connect-card__headline">Connect</p>
           <div class="connect-card__buttons">
 
-            <div class="button-item">
-              <a href="mailto:kelly.clemons@me.com" class="connect-card__buttons-button"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            <a href="mailto:kelly.clemons@me.com" target="_blank" class="button-item">
+              <div class="connect-card__buttons-button"><i class="fa fa-envelope" aria-hidden="true"></i></div>
               <p class="button-item__text">E-mail Kelly</p>
-            </div>
+            </a>
 
-            <div class="button-item">
-              <a href="https://www.linkedin.com/in/kelly-clemons-50a8ba137/" class="connect-card__buttons-button"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/kelly-clemons-50a8ba137/" target="_blank" class="button-item">
+              <div class="connect-card__buttons-button"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
               <p class="button-item__text">View LinkedIn</p>
-            </div>
+            </a>
 
-            <div class="button-item">
-              <a href="https://github.com/kellyclemons" class="connect-card__buttons-button"><i class="fa fa-github" aria-hidden="true"></i></a>
+            <a href="https://github.com/kellyclemons" target="_blank" class="button-item">
+              <div class="connect-card__buttons-button"><i class="fa fa-github" aria-hidden="true"></i></div>
               <p class="button-item__text">View Github</p>
-            </div>
+            </a>
 
-            <div class="button-item">
-              <a href="https://www.instagram.com/kellyclemons/" class="connect-card__buttons-button"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/kellyclemons/" class="button-item">
+              <div class="connect-card__buttons-button"><i class="fa fa-instagram" aria-hidden="true"></i></div>
               <p class="button-item__text">View Instagram</p>
-            </div>
+            </a>
 
             <!-- <div class="button-item">
               <a href="https://www.facebook.com/kelly.e.clemons" class="connect-card__buttons-button"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
@@ -112,25 +153,27 @@
           </div>
         </div>
       </div>
+
+      <nav id="footer" class="footer">
+        <div class="footer-left">
+          <img class="footer-logo" src="http://i64.tinypic.com/210glc4.gif" alt="">
+          <p class="footer-title">Kelly Clemons' Portfolo 2017, All Rights Reserved</p>
+        </div>
+        <!-- <div class="footer-right">
+          <a href="mailto:kelly.clemons@me.com" class="footer-item"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/in/kelly-clemons-50a8ba137/" class="footer-item"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          <a href="https://github.com/kellyclemons" class="footer-item"><i class="fa fa-github" aria-hidden="true"></i></a>
+          <a href="https://www.instagram.com/kellyclemons/" class="footer-item"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          <a href="https://www.facebook.com/kelly.e.clemons" class="footer-item"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+        </div> -->
+      </nav>
     </div>
 
     <!-- BOTTOM SECTION -->
 
     <!-- FOOTER -->
 
-    <nav id="footer" class="footer">
-      <div class="footer-left">
-        <img class="footer-logo" src="http://i64.tinypic.com/210glc4.gif" alt="">
-        <p class="footer-title">Kelly Clemons' Portfolo 2017, All Rights Reserved</p>
-      </div>
-      <div class="footer-right">
-        <a href="mailto:kelly.clemons@me.com" class="footer-item"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-        <a href="https://www.linkedin.com/in/kelly-clemons-50a8ba137/" class="footer-item"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-        <a href="https://github.com/kellyclemons" class="footer-item"><i class="fa fa-github" aria-hidden="true"></i></a>
-        <a href="https://www.instagram.com/kellyclemons/" class="footer-item"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-        <a href="https://www.facebook.com/kelly.e.clemons" class="footer-item"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-      </div>
-    </nav>
+
 
   </div>
 </template>

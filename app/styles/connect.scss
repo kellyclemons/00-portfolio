@@ -1,5 +1,6 @@
 .connect {
   background: url('/images/waves.jpg') no-repeat center center fixed;
+  background-size: cover;
 }
 
 .connect-container {
@@ -11,64 +12,63 @@
 }
 
 .connect-card {
-  // min-width: 65rem;
   width: 100%;
   padding: 65px;
   background: $c-white;
   text-align: center;
   filter: opacity(70%);
-  // background: red;
+
 
   &__headline {
     margin: 0;
     font-size: 7rem;
     text-transform: uppercase;
   }
-
-  &__buttons {
-    display: flex;
-    flex-wrap: wrap;
-    // margin: 0 auto;
-
-  }
-
-  &__buttons-button {
-    display: block;
-    width: 80px;
-    height: 80px;
-
-    transition: 0.1s ease-in-out;
-
-    border: 2px solid $c-black;
-    border-radius: 100px;
-
-    color: inherit;
-    font-size: 40px;
-
-    line-height: 80px;
-    text-align: center;
-
-    &:hover {
-      background: $c-black;
-      color: $c-white;
-    }
-  }
 }
+
+.connect-card__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 0;
+
+}
+
+.connect-card__buttons-button {
+  align-self: center;
+  // width: 100px;
+  min-width: 80px;
+  // height: 80px;
+  transition: 0.1s ease-in-out;
+
+  color: inherit;
+  font-size: 40px;
+
+  line-height: 80px;
+  text-align: center;
+}
+
 
 .button-item {
   display: flex;
-  flex-basis: calc(100% / 2 - 2rem);
-  // width: 50%;
+  flex-direction: column;
   flex-grow: 1;
   margin: 1rem;
-
-  // padding: 1rem;
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.6s ease-out;
+  // box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.5);
 
   &__text {
-    align-self: center;
     margin: 0;
-    padding-left: 1rem;
-    font-size: 2.5rem;
+    font-size: 1.2rem;
+  }
+
+  &:hover {
+    // background: $c-black;
+    // color: $c-white;
+    transform: translateY(-20px);
   }
 
 }
