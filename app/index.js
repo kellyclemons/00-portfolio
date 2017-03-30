@@ -9,7 +9,10 @@ import Portfolio from './routes/portfolio.vue';
 import Blog from './routes/blog.vue';
 import City from './routes/city.vue';
 
+// import vueScroll from 'vue-scroll';
+
 Vue.use(VueRouter);
+// Vue.use(vueScroll);
 
 const routes = [
   {
@@ -36,6 +39,7 @@ const routes = [
     component: City,
   },
 ];
+
 
 const router = new VueRouter({
   mode: 'history',

@@ -3,6 +3,11 @@
 // TOP NAVBAR;
 //
 
+.app {
+  height: 100vh;
+  overflow: scroll;
+}
+
 .folio-logo {
   width: 20rem;
 }
@@ -122,6 +127,21 @@
   font-size: 2rem;
 }
 
-.has-scrolled {
+.navbar-scrolled {
+    // top: 0;
+    // width: 100%;
+    // font-family: 'Reenie Beanie', cursive;
+    // display: flex;
+    // flex-direction: row;
+    // justify-content: space-between;
+    // color: $c-black;
+    font-size: 2rem;
+    background: $c-white;
+    // position: fixed;
+    // transition: all 0.1s ease-in-out;
+    // z-index: 2;
 
+  //   > * {
+  //     margin: 0.5rem;
+  // }
 }

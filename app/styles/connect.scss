@@ -1,0 +1,74 @@
+.connect {
+  background: url('/images/waves.jpg') no-repeat center center fixed;
+}
+
+.connect-container {
+  width: 90%;
+  margin-right: 5%;
+  margin-left: 5%;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.connect-card {
+  // min-width: 65rem;
+  width: 100%;
+  padding: 65px;
+  background: $c-white;
+  text-align: center;
+  filter: opacity(70%);
+  // background: red;
+
+  &__headline {
+    margin: 0;
+    font-size: 7rem;
+    text-transform: uppercase;
+  }
+
+  &__buttons {
+    display: flex;
+    flex-wrap: wrap;
+    // margin: 0 auto;
+
+  }
+
+  &__buttons-button {
+    display: block;
+    width: 80px;
+    height: 80px;
+
+    transition: 0.1s ease-in-out;
+
+    border: 2px solid $c-black;
+    border-radius: 100px;
+
+    color: inherit;
+    font-size: 40px;
+
+    line-height: 80px;
+    text-align: center;
+
+    &:hover {
+      background: $c-black;
+      color: $c-white;
+    }
+  }
+}
+
+.button-item {
+  display: flex;
+  flex-basis: calc(100% / 2 - 2rem);
+  // width: 50%;
+  flex-grow: 1;
+  margin: 1rem;
+
+  // padding: 1rem;
+
+  &__text {
+    align-self: center;
+    margin: 0;
+    padding-left: 1rem;
+    font-size: 2.5rem;
+  }
+
+}
