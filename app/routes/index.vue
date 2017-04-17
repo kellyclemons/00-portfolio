@@ -16,12 +16,23 @@
 
       <div class="main-heading">
         <div class="main-heading-text">
-          <p class="main-heading-big">Student at the Iron Yard</p>
-          <p class="main-heading-small">As a student, I get the opportunity to learn and grow as a new developer.</p>
+          <p class="main-heading-big">Kelly Clemons</p>
+          <p class="main-heading-small">Designer and Developer</p>
         </div>
       </div>
     </div>
 
+
+<!-- <div class="portfolio">
+  <div class="portfolio__item">
+    <div class="portfolio__item-slides">
+      <img class="slide" style="width:100%" src="http://stabmag.com/assets/Uploads/2014/03/Taj_Burrow_JOHN_Barton.jpg" alt="">
+      <img class="slide" style="width:100%" src="https://mavicmate.com/wp-content/uploads/2017/02/Richard-Batson-YallingupWA-28JAN-DJIMPOG.jpg?gid=1" alt="">
+      <button class="next next-left" onclick="plusDivs(-1)">#10094</button>
+      <button class="next next-right" onclick="plusDivs(1)">#10095</button>
+    </div>
+  </div>
+</div> -->
 
 <!-- MIDDLE SECTION - PROJECTS -->
 
@@ -30,7 +41,9 @@
       <div class="project-grid">
 
         <div class="project-grid__item">
-          <img src="https://68.media.tumblr.com/7ab98f8681a0d1f5dd88083638360642/tumblr_nnvzswNbfR1ru8dh2o1_500.jpg" alt="" class="project-grid__image">
+        <a href="http://certain-wrench.surge.sh/" target="_blank">
+          <img src="./images/taj-500.jpg" alt="" class="project-grid__image">
+        </a>
           <p class="project-grid__text">Surf and Paddle</p>
         </div>
 
@@ -97,13 +110,15 @@
               <p class="skills__headline">Skills</p>
               <div class="skills-item">
                 <div class="skills__items">
-                  <p class="skill">HTML + CSS</p>
+                  <p class="skill">HTML</p>
+                  <p class="skill">CSS + SASS</p>
                   <p class="skill">Javascript</p>
-                  <p class="skill">SASS</p>
+                  <p class="skill">Redux</p>
                   <p class="skill">Vue</p>
                   <p class="skill">Git + GitHub</p>
                 </div>
                 <div class="skills__items">
+                  <p class="skill">Ember</p>
                   <p class="skill">UI/UX Design</p>
                   <p class="skill">Adobe InDesign</p>
                   <p class="skill">Adobe Illustrator</p>
@@ -141,8 +156,8 @@
             </a>
 
             <a href="https://www.instagram.com/kellyclemons/" class="button-item">
-              <div class="connect-card__buttons-button"><i class="fa fa-instagram" aria-hidden="true"></i></div>
-              <p class="button-item__text">View Instagram</p>
+              <div class="connect-card__buttons-button"><i class="fa fa-mobile" aria-hidden="true"></i></div>
+              <p class="button-item__text">Call Kelly</p>
             </a>
 
             <!-- <div class="button-item">
@@ -157,7 +172,7 @@
       <nav id="footer" class="footer">
         <div class="footer-left">
           <img class="footer-logo" src="http://i64.tinypic.com/210glc4.gif" alt="">
-          <p class="footer-title">Kelly Clemons' Portfolo 2017, All Rights Reserved</p>
+          <p class="footer-title">Kelly Clemons' Portfolio 2017, All Rights Reserved</p>
         </div>
         <!-- <div class="footer-right">
           <a href="mailto:kelly.clemons@me.com" class="footer-item"><i class="fa fa-envelope" aria-hidden="true"></i></a>
@@ -179,6 +194,7 @@
 </template>
 
 <script>
+
 export default {
   name: 'Index',
   data() {
