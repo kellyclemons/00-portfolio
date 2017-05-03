@@ -9,8 +9,8 @@
         </div>
         <div class="navbar-right">
           <a href="#middle" class="navbar-right-item">Portfolio</a>
-          <a href="#connect" class="navbar-right-item">Connect</a>
           <a href="#resume" class="navbar-right-item">Resume</a>
+          <a href="#connect" class="navbar-right-item">Connect</a>
         </div>
       </nav>
 
@@ -48,23 +48,29 @@
         </div>
 
         <div class="project-grid__item">
-          <img src="https://68.media.tumblr.com/7ab98f8681a0d1f5dd88083638360642/tumblr_nnvzswNbfR1ru8dh2o1_500.jpg" alt="" class="project-grid__image">
-          <p class="project-grid__text">Surf and Paddle</p>
+          <a href="http://kclemons-tshirts.surge.sh/">
+            <img src="./images/salty-two.jpg" alt="" class="project-grid__image">
+          </a>
+          <p class="project-grid__text">T-Shirts</p>
         </div>
 
         <div class="project-grid__item">
-          <img src="https://68.media.tumblr.com/7ab98f8681a0d1f5dd88083638360642/tumblr_nnvzswNbfR1ru8dh2o1_500.jpg" alt="" class="project-grid__image">
-          <p class="project-grid__text">Surf and Paddle</p>
+          <a href="http://kclemons-spotify.surge.sh/">
+            <img src="http://cps-static.rovicorp.com/3/JPG_500/MI0004/101/MI0004101703.jpg?partner=allrovi.com" alt="" class="project-grid__image">
+          </a>
+          <p class="project-grid__text">Spotify</p>
         </div>
 
         <div class="project-grid__item">
-          <img src="https://68.media.tumblr.com/7ab98f8681a0d1f5dd88083638360642/tumblr_nnvzswNbfR1ru8dh2o1_500.jpg" alt="" class="project-grid__image">
-          <p class="project-grid__text">Surf and Paddle</p>
+          <a href="http://kclemons-puppyadoption.surge.sh/">
+            <img src="https://s-media-cache-ak0.pinimg.com/736x/3e/9b/19/3e9b19f5e4494854dc98a7317938329a.jpg" alt="" class="project-grid__image">
+          </a>
+          <p class="project-grid__text">Puppy Adoption</p>
         </div>
 
         <div class="project-grid__item">
-          <img src="https://68.media.tumblr.com/7ab98f8681a0d1f5dd88083638360642/tumblr_nnvzswNbfR1ru8dh2o1_500.jpg" alt="" class="project-grid__image">
-          <p class="project-grid__text">Surf and Paddle</p>
+          <img src="./images/yoga-girls.jpg" alt="" class="project-grid__image">
+          <p class="project-grid__text">Spot Me</p>
         </div>
 
         <div class="project-grid__item">
