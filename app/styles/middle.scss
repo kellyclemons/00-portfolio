@@ -29,22 +29,38 @@
     }
   }
 
-  &__image {
-    position: relative;
-    box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.5);
+  // &__image {
+  //   box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.5);
+  // }
+}
 
-    &:hover {
-      // filter: blur(5px);
-      filter: opacity(50%);
-    }
+.project-grid__image {
+  box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.5);
+
+  &:hover {
+    filter: opacity(50%);
   }
+}
 
-  &__text {
-    display: flex;
-    position: absolute;
-    flex-wrap: none;
-    margin: 0;
-    color: $c-white;
-    font-size: 2rem;
+.project-source {
+  position: relative;
+}
+
+.project-grid__text {
+  position: absolute;
+  padding: 2rem;
+  transform: translateY(-2rem);
+  border: 5px solid $c-white;
+  color: $c-white;
+  font-size: 2rem;
+  text-align: center;
+  visibility: hidden;
+
+  *:hover > & {
+    visibility: visible;
+    // background: $c-white;
+    // filter: opacity(50%);
+    // background: white;
+    // color: black;
   }
 }

@@ -30,35 +30,35 @@
       <div class="project-grid">
 
         <div class="project-grid__item">
-          <a href="http://spotme.surge.sh/" target="_blank">
+          <a class="project-source" href="http://spotme.surge.sh/" target="_blank">
             <img src="./images/yoga-girls.jpg" alt="" class="project-grid__image">
           </a>
           <p class="project-grid__text">Spot Me</p>
         </div>
 
         <div class="project-grid__item">
-        <a href="http://certain-wrench.surge.sh/" target="_blank">
+        <a class="project-source" href="http://certain-wrench.surge.sh/" target="_blank">
           <img src="./images/taj-500.jpg" alt="" class="project-grid__image">
         </a>
           <p class="project-grid__text">Surf and Paddle</p>
         </div>
 
         <div class="project-grid__item">
-          <a href="http://kclemons-spotify.surge.sh/" target="_blank">
+          <a class="project-source" href="http://kclemons-spotify.surge.sh/" target="_blank">
             <img src="http://cps-static.rovicorp.com/3/JPG_500/MI0004/101/MI0004101703.jpg?partner=allrovi.com" alt="" class="project-grid__image">
           </a>
           <p class="project-grid__text">Spotify</p>
         </div>
 
         <div class="project-grid__item">
-          <a href="http://kclemons-tshirts.surge.sh/" target="_blank">
+          <a class="project-source" href="http://kclemons-tshirts.surge.sh/" target="_blank">
             <img src="./images/salty-two.jpg" alt="" class="project-grid__image">
           </a>
           <p class="project-grid__text">T-Shirts</p>
         </div>
 
         <div class="project-grid__item">
-          <a href="http://kclemons-puppyadoption.surge.sh/" target="_blank">
+          <a class="project-source" href="http://kclemons-puppyadoption.surge.sh/" target="_blank">
             <img src="https://s-media-cache-ak0.pinimg.com/736x/3e/9b/19/3e9b19f5e4494854dc98a7317938329a.jpg" alt="" class="project-grid__image">
           </a>
           <p class="project-grid__text">Puppy Adoption</p>
@@ -66,7 +66,7 @@
 
 
         <div class="project-grid__item">
-          <a href="http://keyboard-piano.surge.sh/" target="_blank">
+          <a class="project-source" href="http://keyboard-piano.surge.sh/" target="_blank">
             <img src="https://static1.squarespace.com/static/577975aef7e0ab3baff39d4f/t/579403d6579fb36d1f7758aa/1469318105066/people_hands_concert_music_crowd_80452_2048x2048.jpg?format=500w" alt="" class="project-grid__image">
           </a>
           <p class="project-grid__text">Keyboard Piano</p>
