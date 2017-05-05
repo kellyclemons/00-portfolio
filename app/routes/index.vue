@@ -160,10 +160,12 @@
               <p class="button-item__text">View Github</p>
             </a>
 
-            <a href="https://www.instagram.com/kellyclemons/" class="button-item">
-              <div class="connect-card__buttons-button"><i class="fa fa-mobile" aria-hidden="true"></i></div>
-              <p class="button-item__text">Call Kelly</p>
+            <a href="tel:7138555596" class="button-item-div">
+              <div class="test connect-card__buttons-button"><i class="fa fa-mobile" aria-hidden="true"></i></div>
+              <p class="text-a button-item-div__text">Call Kelly</p>
+              <p class="text-b button-item-div__text">713-855-5596</p>
             </a>
+
 
           </div>
         </div>
@@ -173,7 +175,7 @@
       <nav id="footer" class="footer">
         <div class="footer-left">
           <img class="footer-logo" src="http://i64.tinypic.com/210glc4.gif" alt="">
-          <p class="footer-title">Kelly Clemons' Portfolio 2017</p>
+          <p class="footer-title">Kelly Clemons' Portfolio, 2017</p>
         </div>
       </nav>
 
