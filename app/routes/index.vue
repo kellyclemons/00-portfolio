@@ -3,7 +3,7 @@
 
 <!-- TOP SECTION -->
     <div id="top" class="top">
-      <nav :class="450 < scrollPosition ? 'navbar-scrolled': null" class="navbar">
+      <nav :class="500 < scrollPosition ? 'navbar-scrolled': null" class="navbar">
         <div class="navbar-left">
           <a href="#top"><img class="navbar-logo" src="http://i64.tinypic.com/210glc4.gif" alt=""></a>
           <p class="navbar-title">Kelly Clemons</p>
@@ -165,7 +165,6 @@
               <p class="text-a button-item-div__text">Call Kelly</p>
               <p class="text-b button-item-div__text">713-855-5596</p>
             </a>
-
 
           </div>
         </div>

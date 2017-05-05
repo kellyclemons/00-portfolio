@@ -104,7 +104,6 @@
 
     > .text-b {
       display: block;
-      transform: translateY(-1rem);
       font-size: 1.2rem;
     }
   }
@@ -112,24 +111,13 @@
 
 .text-b {
   display: none;
-  transform: translateY(-1rem);
+  margin: 0;
+  padding: 0;
   font-size: 1.2rem;
 }
 
 .text-a {
-  font-size: 1.2rem;
   margin: 0;
   padding: 0;
+  font-size: 1.2rem;
 }
-
-//
-// .testing {
-//   // width: 6em;
-//   align-self: center;
-// }
-//
-// .testing:hover span {
-//   display: none;
-//   align-self: center;
-// }
-//
