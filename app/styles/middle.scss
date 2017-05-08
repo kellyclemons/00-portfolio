@@ -1,73 +1,63 @@
 // MIDDLE SECTION (PROJECTS)
 
 .middle {
-  // background: $c-app-greenblue-transparent;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  min-width: 22rem;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
 }
 
 .project-grid {
   display: flex;
-  position: relative;
   flex-wrap: wrap;
-  max-width: 60rem;
+  align-items: center;
+  justify-content: center;
   margin: 0 auto;
   text-align: center;
-
-  &__item {
-    display: flex;
-    flex-basis: calc(100% / 3 - 2rem);
-    flex-grow: 1;
-    align-items: center;
-    justify-content: center;
-    min-width: 15rem;
-    margin: 1rem;
-    transition:  0.6s ease-out;
-    background: $c-white;
-    cursor: pointer;
-
-    &:hover {
-      transform: scale(1.07);
-    }
-  }
-
-  // &__image {
-  //   box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.5);
-  // }
 }
 
-.project-image {
-  overflow: hidden;
+.grid__item {
+  display: flex;
   position: relative;
-}
-
-.image-overlay {
-  overflow: hidden;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  transition: 0.3 all ease;
-  // z-index: 1;
-
-    &:hover {
-      filter: opacity(50%);
-      background-color: $c-black;
-      background-image: none;
-  }
-}
-
-.project-grid__image {
+  flex-basis: calc(100% / 3 - 2rem);
+  flex-direction: column;
+  flex-grow: 1;
+  min-width: 22rem;
+  max-width: 22rem;
+  min-height: 22rem;
+  max-height: 22rem;
+  margin: 1rem;
+  transition: 0.6s ease-in;
   box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.5);
+
+  &:hover {
+    transform: scale(1.07);
+  }
+
+  &:hover img {
+    opacity: 0.5;
+  }
 }
 
 .project-grid__text {
+  display: flex;
   position: absolute;
-  padding: 0.5rem;
-  transform: translateY(-1.5rem);
-  border: 5px solid $c-white;
-  color: $c-white;
-  font-size: 1.5rem;
-  text-align: center;
+  top: 0;
+  left: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background: inherit;
+  color: $c-black;
+  font-size: 2rem;
+  text-decoration: none;
   visibility: hidden;
 
   *:hover > & {
