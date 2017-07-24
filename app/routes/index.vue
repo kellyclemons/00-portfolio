@@ -87,6 +87,7 @@
             <div class="experience">
               <p class="skills__headline">Relevant Experience</p>
               <div class="experience__items">
+                <p>Currently working as an IT Intern at GSD&amp;M <span class="dates">2017-Current</span></p>
                 <p>Studied Front End Web Development at The Iron Yard in Nashville, Tennessee <span class="dates">2017<span></p>
                 <p>Account Assistant at Lavare Design in Perth, Western Austalia <span class="dates">2015-2016<span></p>
                 <p>Architecture Intern at JCY Architects and Urban Designers in Perth, Western Australia <span class="dates">2013-2014<span></p>
@@ -99,14 +100,18 @@
               <div class="skills-item">
                 <div class="skills__items">
                   <p class="skill">HTML</p>
-                  <p class="skill">CSS + SASS</p>
+                  <p class="skill">CSS + SASS + LESS</p>
                   <p class="skill">Javascript</p>
                   <p class="skill">Redux</p>
                   <p class="skill">Vue</p>
-                  <p class="skill">Git + GitHub</p>
+                  <p class="skill">Ember</p>
+                  <p class="skill">PHP</p>
+                  <p class="skill">jQuery</p>
                 </div>
                 <div class="skills__items">
-                  <p class="skill">Ember</p>
+                  <p class="skill">Wordpress</p>
+                  <p class="skill">Some C# Experience</p>
+                  <p class="skill">Git + GitHub</p>
                   <p class="skill">UI/UX Design</p>
                   <p class="skill">Adobe Creative Suite</p>
                   <p class="skill">PostgresSEL</p>
