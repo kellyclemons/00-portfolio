@@ -44,12 +44,6 @@
       </div>
     </a>
 
-    <a href="http://kclemons-spotify.surge.sh/" class="project-source" target="_blank">
-      <div class="grid__item">
-        <img src="http://cps-static.rovicorp.com/3/JPG_500/MI0004/101/MI0004101703.jpg?partner=allrovi.com" alt="" class="project-grid__image">
-        <p class="project-grid__text">Spotify</p>
-      </div>
-    </a>
 
     <a href="http://kclemons-tshirts.surge.sh/" class="project-source" target="_blank">
       <div class="grid__item">
@@ -72,6 +66,15 @@
       </div>
     </a>
 
+    <router-link to="designs">
+      <a href="http://kclemons-spotify.surge.sh/" class="project-source" target="_blank">
+        <div class="grid__item">
+          <img src="./images/sharkblue.jpg" alt="" class="project-grid__image">
+          <p class="project-grid__text">My Designs</p>
+        </div>
+      </a>
+    </router-link>
+
   </div>
 </div>
 
@@ -87,7 +90,7 @@
             <div class="experience">
               <p class="skills__headline">Relevant Experience</p>
               <div class="experience__items">
-                <p>Currently working as an IT Intern at GSD&amp;M <span class="dates">2017-Current</span></p>
+                <p>IT Intern at GSD&amp;M in Austin, Texas <span class="dates">2017-Current</span></p>
                 <p>Studied Front End Web Development at The Iron Yard in Nashville, Tennessee <span class="dates">2017<span></p>
                 <p>Account Assistant at Lavare Design in Perth, Western Austalia <span class="dates">2015-2016<span></p>
                 <p>Architecture Intern at JCY Architects and Urban Designers in Perth, Western Australia <span class="dates">2013-2014<span></p>

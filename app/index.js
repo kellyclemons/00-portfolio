@@ -6,6 +6,7 @@ import VueRouter from 'vue-router';
 import App from './routes/application.vue';
 import Index from './routes/index.vue';
 import Portfolio from './routes/portfolio.vue';
+import Designs from './routes/designs.vue';
 
 // import vueScroll from 'vue-scroll';
 
@@ -24,6 +25,12 @@ const routes = [
     name: 'portfolio',
     component: Portfolio
   },
+
+  {
+    path: '/designs',
+    name: 'designs',
+    component: Designs
+  }
 ];
 
 
